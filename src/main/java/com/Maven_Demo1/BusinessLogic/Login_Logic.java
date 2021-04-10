@@ -21,7 +21,7 @@ public class Login_Logic extends Login_Sample
 		getUserName().clear();
 		getUserName().sendKeys(userName);
 		System.out.println("UserId Entered");
-		//getPassword().clear();
+		// getPassword().clear();// Need to update code
 		getUserName().sendKeys(Keys.TAB);
 		getPassword().sendKeys(password);
 		System.out.println("Password Entered");
