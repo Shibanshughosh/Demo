@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestNG Demo]">
+  <test name="Login Demo(failed)">
+    <classes>
+      <class name="com.Maven_Demo1.TestDriver.Login_Driver">
+        <methods>
+          <include name="setDriver"/>
+          <include name="myLogin"/>
+        </methods>
+      </class> <!-- com.Maven_Demo1.TestDriver.Login_Driver -->
+    </classes>
+  </test> <!-- Login Demo(failed) -->
+</suite> <!-- Failed suite [TestNG Demo] -->
